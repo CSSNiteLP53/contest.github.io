@@ -100,8 +100,7 @@ ul,ol{
 	text-align: left;
 	font-size: 1.1em;
 }
-.contents02 .flexbox ul,
-.contents02 .flexbox p{
+.contents02 .flexbox .right{
 	width: 75%;
 	text-align: left;
 	margin: 20px;
