@@ -77,7 +77,7 @@ ul,ol{
 	position: absolute;
 	top:-280px;
 	left:-160px;
-	content: url(images/lp.jpg) no-repeat;
+	background: url(images/lp.jpg) no-repeat;
 }
 .bg{
 	background-color: rgba(59,70,117,0.1);
@@ -120,6 +120,9 @@ ul,ol{
 .box2{
 	width: 900px;
 	margin: 0 auto;
+}
+.mimage{
+	margin: 40px 50px;
 }
 
 .overview{
@@ -217,5 +220,8 @@ ul,ol{
 .box{
 	width: 100%;
 	text-align: center;
+}img {
+  max-width: 100%;
+  height: auto;
 }
 }
