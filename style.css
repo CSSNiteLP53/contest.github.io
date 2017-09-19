@@ -209,9 +209,6 @@ ul,ol{
 	  height: auto;
 	}
 	.contents02 .button a{
-		margin-bottom: 20px;
+		margin: 0 0 20px 0;
 		}
-	.ninja_onebutton{
-		display: none;
-	}
 }
