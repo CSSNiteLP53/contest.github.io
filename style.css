@@ -52,7 +52,7 @@ ul,ol{
 	text-align:center;
 }
 /*大きい*/
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 1241px){
 .hero{
 	background-image:url("images/main.jpg") no-repeat;
 	background-position:top center; 
@@ -65,15 +65,35 @@ ul,ol{
 }
 .contents01 p{
 	margin: 40px auto;
+	font-weight: bold;
 }
-.content02{
-	margin: 60px auto;
-	padding: 40px 0;
-	background: #f8f8f8;
+.contents02{
+	padding: 0;
+	margin: 80px auto;
+}
+.lp{
+	width: 400px;
+	height: 1146px;
+	position: absolute;
+	top:-280px;
+	left:-160px;
+	content: url(images/lp.jpg) no-repeat;
 }
 .bg{
-	background: #f8f8f8;
-	padding: 20px 0;
+	background-color: rgba(59,70,117,0.1);
+	padding: 1px;
+	}
+.box2{
+	width: 900px;
+	position: relative;
+	}
+.color{
+	margin: 0 auto;
+	position: relative;
+}
+	
+.bg .flexbox{
+	margin-left: 200px;
 }
 .contents02 h2{
 	width: 25%;
@@ -98,7 +118,7 @@ ul,ol{
 	line-height:1.8em;
 }
 .box2{
-	width: 800px;
+	width: 900px;
 	margin: 0 auto;
 }
 
@@ -115,14 +135,20 @@ ul,ol{
 .contents02 .flexbox{
 	border-bottom:1px #333 solid;
 	}
+.contents02 .flexbox:last-child{
+	border-bottom:none;
+	}
 .contents02 h1{
 	margin-bottom: 60px;
 	margin-top: 100px;
 	}
 .contents02 .button{
-	margin: 40px auto;
+	margin: 40px auto 0 auto;
 	width: 900px;
+	padding-bottom: 80px;
 	display: flex;
+	position: relative;
+	z-index: 1000;
 	}
 .contents02 .button a{
 	width: 100%;
@@ -184,5 +210,12 @@ ul,ol{
 .content{
 	width: 90%;
 	margin: 0 auto;
+}
+.lp{
+	display: none;
+}
+.box{
+	width: 100%;
+	text-align: center;
 }
 }
