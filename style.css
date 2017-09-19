@@ -35,11 +35,6 @@ ul,ol{
 }
 
 
-.hero{
-	background:url("images/main.jpg") top center no-repeat;
-	padding-top:900px;
-}
-
 .content{
 	width: 100%;
 	margin: 0 auto;
@@ -49,7 +44,6 @@ ul,ol{
 	margin: 40px auto 0 auto;
 	padding-bottom: 80px;
 	position: relative;
-	z-index: 1000;
 	}
 .contents02 .button a{
 	width: 100%;
@@ -180,6 +174,13 @@ ul,ol{
 	.hero{
 		background:url("images/sp-main.jpg") no-repeat top center;
 		background-size:100vw;
+		height: calc(100vw - 20px);
+	}
+
+	h1{
+		text-align:center;
+		font-size:2em;
+		margin: 60px auto 40px auto;
 	}
 	.content{
 		width: 90%;
@@ -210,4 +211,7 @@ ul,ol{
 	.contents02 .button a{
 		margin-bottom: 20px;
 		}
+	.ninja_onebutton{
+		display: none;
+	}
 }
