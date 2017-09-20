@@ -73,8 +73,9 @@ ul,ol{
 /*大きい*/
 @media only screen and (min-width: 1241px){
 	.hero{
-		background-image:url("images/main.jpg") no-repeat;
+		background-image:url("images/main.jpg");
 		background-position:top center; 
+		background-repeat: no-repeat;
 		background-size:auto;
 		padding-top: 900px;
 	}
