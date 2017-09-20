@@ -69,6 +69,13 @@ ul,ol{
 	font-size:1.6em;
 	font-weight: bold;
 }
+.qualification{
+	background: #111;
+	padding: 7px 20px;
+	color:#fff;
+	border-radius: 5px;
+	font-size: 1.2em;
+}
 
 /*大きい*/
 @media only screen and (min-width: 1241px){
